@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather Application</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" 
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+      <section class="container">
+      <div class="weather_header">
+      <form class="weather_search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" id="city_name"   placeholder="Search your city...">
+      <button id="button">Find🔎</button>
+      </form>
+    </div >
+    <div class="weather_body">
+      <h1 class="weather_city"></h1>
+      <p class="weather_date_time"></p>
+      <div class="weather_data">
+          <p class="weather_forecast"></p>
+          <div class="weather_icon"></div>
+       </div>
+      <p class="weather_temperature"></p>
+      <div class="weather_minmax">
+        <p class="weather_min"></p>
+        <p class="weather_max"></p>
+      </div>
+    </div>
+        <section class="weather_info"> 
+        <div class="weather_card"> 
+        <i class="fa-solid fa-temperature-low"></i>
+        <div>
+        <p>feels like</p>
+        <p class="weather_feelsLike">15&#176</p>
+        </div>
+        </div>
+
+        <div class="weather_card"> 
+        <i class="fa-solid fa-temperature-low"></i>
+        <div>
+        <p>Humidity</p>
+        <p class="weather_humidity">15&#176</p>
+        </div>
+        </div>
+
+        <div class="weather_card"> 
+        <i class="fa-solid fa-temperature-low"></i>
+        <div>
+        <p>Wind</p>
+        <p class="weather_wind">15&#176</p>
+        </div>
+        </div>
+        </section>
+        
+</section>
+        <script src="index.js"></script>
+    </body>
+</html>
