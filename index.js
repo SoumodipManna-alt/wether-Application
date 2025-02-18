@@ -7,8 +7,8 @@ let w_temperature=document.querySelector(".weather_temperature")
 let w_icon=document.querySelector(".weather_icon")
 let w_minTem=document.querySelector(".weather_min")
 let w_maxTem=document.querySelector(".weather_max")
-let api="3e5074d26ae30569eb5be7ad119aee0b"
-// let WEATHER_OF_KOLKATA=`https://api.openweathermap.org/data/2.5/weather?q=kolkata&APPID=3e5074d26ae30569eb5be7ad119aee0b`
+let api="***"
+// let WEATHER_OF_KOLKATA=`https://api.openweathermap.org/data/2.5/weather?q=kolkata&APPID=***`
 
 
 
